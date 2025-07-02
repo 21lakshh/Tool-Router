@@ -1,0 +1,14 @@
+fastmcp
+python-dotenv
+pydantic
+sentence-transformers
+numpy
+torch
+transformers
+huggingface-hub
+scikit-learn
+datasets
+matplotlib
+seaborn
+accelerate
+tokenizers 

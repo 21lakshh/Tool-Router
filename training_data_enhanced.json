@@ -1,0 +1,3530 @@
+[
+  {
+    "text": "What can I cook with leftover rice and dal?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "English recipe query"
+  },
+  {
+    "text": "How to cook with remaining vegetables?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "English leftover vegetables"
+  },
+  {
+    "text": "Recipe for leftover bread",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "English bread recipe"
+  },
+  {
+    "text": "What to make with leftover food?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "General leftover query"
+  },
+  {
+    "text": "बचे हुए खाने से क्या बना सकते हैं?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Hindi recipe query"
+  },
+  {
+    "text": "चावल और दाल से कुछ बनाना है",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Hindi rice dal recipe"
+  },
+  {
+    "text": "बची हुई रोटी का क्या करें?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Hindi leftover roti"
+  },
+  {
+    "text": "Ghar mein sirf chawal aur dal hai, kuch recipe batao",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Hinglish recipe query"
+  },
+  {
+    "text": "Leftover roti se kya banau?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Leftover roti query"
+  },
+  {
+    "text": "Dal chawal se kya banana hai",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Specific Hinglish recipe query"
+  },
+  {
+    "text": "Bacha hua khana waste nahi karna, recipe batao",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Food waste prevention"
+  },
+  {
+    "text": "Tell me a bedtime story",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "English bedtime story"
+  },
+  {
+    "text": "Share a moral story for children",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "English moral story"
+  },
+  {
+    "text": "I need a story for kids",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "English kids story"
+  },
+  {
+    "text": "Bedtime tale please",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "English bedtime tale"
+  },
+  {
+    "text": "कोई नैतिक कहानी सुनाइए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Hindi moral story"
+  },
+  {
+    "text": "बच्चों के लिए कहानी चाहिए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Hindi children story"
+  },
+  {
+    "text": "सोने से पहले की कहानी बताइए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Hindi bedtime story"
+  },
+  {
+    "text": "Bacchon ko sunane ke liye koi achhi kahani batao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Hinglish children story"
+  },
+  {
+    "text": "Story with moral sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Hinglish moral story"
+  },
+  {
+    "text": "Bacchon ke liye moral story batao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Hinglish children story request"
+  },
+  {
+    "text": "Nani ki kahani sunao na",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Traditional grandmother story"
+  },
+  {
+    "text": "Write a beautiful poem",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "English poem request"
+  },
+  {
+    "text": "Create romantic poetry",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "English romantic poem"
+  },
+  {
+    "text": "Generate verse about love",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "English love verse"
+  },
+  {
+    "text": "I want some poetry",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "General poetry request"
+  },
+  {
+    "text": "प्रेम पर कविता लिखिए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Hindi love poem"
+  },
+  {
+    "text": "कोई अच्छी कविता सुनाइए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Hindi poem request"
+  },
+  {
+    "text": "शायरी सुनाना चाहते हैं",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Hindi shayari request"
+  },
+  {
+    "text": "Koi achhi kavita sunao",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Hinglish poem request"
+  },
+  {
+    "text": "Romantic poetry batao",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Hinglish romantic poem"
+  },
+  {
+    "text": "Koi achhi si kavita sunao na",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Casual Hinglish poem request"
+  },
+  {
+    "text": "Love pe poem likhkar sunao",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Love poem in Hinglish"
+  },
+  {
+    "text": "Suggest some old classic songs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "English music request"
+  },
+  {
+    "text": "Recommend nostalgic music",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "English nostalgic music"
+  },
+  {
+    "text": "Play vintage songs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "English vintage music"
+  },
+  {
+    "text": "Old bollywood hits please",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "English old bollywood"
+  },
+  {
+    "text": "कुछ पुराने गाने बताइए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Hindi music request"
+  },
+  {
+    "text": "क्लासिक संगीत की सिफारिश करें",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Hindi classic music"
+  },
+  {
+    "text": "नॉस्टेल्जिक गाने चाहिए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Hindi nostalgic songs"
+  },
+  {
+    "text": "Purane gaane recommend karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Hinglish music request"
+  },
+  {
+    "text": "1900s ke nostalgic songs batao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Nostalgic songs request"
+  },
+  {
+    "text": "Purane gaane recommend karo yaar",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Challenging Hinglish music request"
+  },
+  {
+    "text": "Old classic music sunana hai",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Mixed language music request"
+  },
+  {
+    "text": "Good restaurants near me",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "English restaurant search"
+  },
+  {
+    "text": "Find nearby food places",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "English food search"
+  },
+  {
+    "text": "Where to eat around here?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "English dining query"
+  },
+  {
+    "text": "Suggest local restaurants",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "English local restaurants"
+  },
+  {
+    "text": "पास में खाने की जगह बताइए",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Hindi food place search"
+  },
+  {
+    "text": "यहाँ के आस-पास रेस्टोरेंट कहाँ है?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Hindi restaurant query"
+  },
+  {
+    "text": "नजदीकी भोजनालय बताएं",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Hindi dining places"
+  },
+  {
+    "text": "Yahan ke paas koi achha dhaba hai?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Hinglish dhaba search"
+  },
+  {
+    "text": "Nearby food places batao",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Hinglish food search"
+  },
+  {
+    "text": "Yahan ka food scene kaisa hai",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Complex Hinglish food inquiry"
+  },
+  {
+    "text": "Koi achha restaurant suggest karo nearby",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Restaurant suggestion in Hinglish"
+  },
+  {
+    "text": "I have some leftover chicken, what should I make?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Leftover chicken recipe"
+  },
+  {
+    "text": "कल का बना खाना बचा है, क्या करूं?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Yesterday's leftover food"
+  },
+  {
+    "text": "Fridge mein kuch vegetables hai, recipe suggest karo",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Fridge vegetables recipe"
+  },
+  {
+    "text": "Bread ke टुकड़े बचे हैं, kya banau?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Leftover bread pieces"
+  },
+  {
+    "text": "Quick meal banana hai leftover se",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Quick leftover meal"
+  },
+  {
+    "text": "Can you narrate a folk tale?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "English folk tale"
+  },
+  {
+    "text": "परी की कहानी सुनाइए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Hindi fairy tale"
+  },
+  {
+    "text": "Bachpan ki yaad dilane wali story sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Childhood memory story"
+  },
+  {
+    "text": "Moral wali कोई interesting कहानी है?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Interesting moral story"
+  },
+  {
+    "text": "Kids ke लिए educational story batao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Educational kids story"
+  },
+  {
+    "text": "Compose a verse about nature",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Nature verse"
+  },
+  {
+    "text": "दोस्ती पर कविता लिखिए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Friendship poem in Hindi"
+  },
+  {
+    "text": "Monsoon ke मूड में कोई poem sunao",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Monsoon mood poem"
+  },
+  {
+    "text": "Heart-touching shayari chahiye",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Heart-touching shayari"
+  },
+  {
+    "text": "Life pe deep poetry create karo",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Deep life poetry"
+  },
+  {
+    "text": "Play some retro melodies",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Retro melodies"
+  },
+  {
+    "text": "सुनहरे दिनों के गाने सुनाइए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Golden era songs"
+  },
+  {
+    "text": "90s के hit songs recommend karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "90s hit songs"
+  },
+  {
+    "text": "Mood बनाने के लिए classic music चाहिए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Mood classic music"
+  },
+  {
+    "text": "Evergreen melodies ki list banao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Evergreen melodies list"
+  },
+  {
+    "text": "Where can I find authentic cuisine?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Authentic cuisine search"
+  },
+  {
+    "text": "इस इलाके में अच्छा खाना कहाँ मिलता है?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Good food in area"
+  },
+  {
+    "text": "Budget-friendly restaurants batao nearby",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Budget restaurants"
+  },
+  {
+    "text": "Home delivery वाले restaurants कौन से हैं?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Home delivery restaurants"
+  },
+  {
+    "text": "Street food के लिए कहाँ जाना चाहिए?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Street food location"
+  },
+  {
+    "text": "Yesterday का बचा हुआ food से something tasty बनाओ",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Complex code-mixed recipe"
+  },
+  {
+    "text": "Kids को सुनाने के लिए some moral story with happy ending चाहिए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Code-mixed story request"
+  },
+  {
+    "text": "Heart को touch करने वाली poetry create करो please",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Heart-touching poetry"
+  },
+  {
+    "text": "Nostalgic feel देने वाले classic गाने play करो",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Nostalgic classic songs"
+  },
+  {
+    "text": "यहाँ से walking distance में कोई good restaurant है?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Walking distance restaurants"
+  },
+  {
+    "text": "Aaj dinner mein kya banayega leftover rice se?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Dinner with leftover rice"
+  },
+  {
+    "text": "Chote bacchon को interesting kahani with animals sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Animal stories for kids"
+  },
+  {
+    "text": "Love mein धोखा खाने पर sad poetry likh do",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Sad love poetry"
+  },
+  {
+    "text": "Sunday morning के लिए soothing old songs बताओ",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Sunday morning songs"
+  },
+  {
+    "text": "Family के साथ dinner करने के लिए nice place suggest करो",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Family dinner place"
+  },
+  {
+    "text": "Yaar ghar pe sirf टमाटर और onion है, कुछ बना do",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Informal recipe request"
+  },
+  {
+    "text": "Bore हो रहा हूँ, कोई मजेदार story सुना na",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Informal story request"
+  },
+  {
+    "text": "Girlfriend को impress करने के लिए romantic poem लिख de",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Girlfriend poem"
+  },
+  {
+    "text": "Road trip के time sunने के लिए peppy songs recommend kar",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Road trip songs"
+  },
+  {
+    "text": "Date पर ले जाने के लिए romantic restaurant बता यहाँ का",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Date restaurant"
+  },
+  {
+    "text": "I'm tired and just want something easy to cook with what I have",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Tired easy cooking"
+  },
+  {
+    "text": "My kids are hungry but I only have these leftovers",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Kids hungry leftovers"
+  },
+  {
+    "text": "Weekend mein friends ke liye kuch special banana hai",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Weekend friends cooking"
+  },
+  {
+    "text": "Grocery shopping nahi kar payi, ghar mein jo hai usse kuch banao",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "No grocery shopping"
+  },
+  {
+    "text": "रात को देर से घर आया हूं, कुछ जल्दी बनाना है",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Late night quick food"
+  },
+  {
+    "text": "Guest aa rahe hain kal, leftover se kuch presentable banao",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Guests coming tomorrow"
+  },
+  {
+    "text": "My daughter can't sleep, she needs a calming story",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Daughter can't sleep"
+  },
+  {
+    "text": "बच्चा बहुत शैतान है, कोई अच्छी सीख देने वाली कहानी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Naughty child moral story"
+  },
+  {
+    "text": "Kids bore ho rahe hain, koi entertaining story sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Kids getting bored"
+  },
+  {
+    "text": "Rainy day hai, bachon ko ghar mein busy rakhne ke liye story",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Rainy day story"
+  },
+  {
+    "text": "Grandma used to tell such beautiful stories, I want something similar",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Grandma style stories"
+  },
+  {
+    "text": "I'm feeling melancholic today, need some poetry to match my mood",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Melancholic mood poetry"
+  },
+  {
+    "text": "Anniversary hai kal, wife ke liye romantic poem chahiye",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Anniversary romantic poem"
+  },
+  {
+    "text": "दिल टूटा है, कुछ दर्द भरी शायरी सुनाओ",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Heartbreak shayari"
+  },
+  {
+    "text": "Spring season ke liye nature poetry create karo",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Spring nature poetry"
+  },
+  {
+    "text": "Friend को motivate करने के लिए inspirational poem",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Motivational poem for friend"
+  },
+  {
+    "text": "Feeling nostalgic about childhood, want some old melodies",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Childhood nostalgia"
+  },
+  {
+    "text": "Papa के साथ बैठकर पुराने गाने सुनना है",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Listen with father"
+  },
+  {
+    "text": "Long drive pe jaana hai, classic songs recommend karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Long drive classics"
+  },
+  {
+    "text": "Raining outside, old romantic songs ka mood hai",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Rainy romantic mood"
+  },
+  {
+    "text": "Study करते समय background में soft classical music चाहिए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Study background music"
+  },
+  {
+    "text": "New in this city, where do locals eat good food?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "New in city locals eat"
+  },
+  {
+    "text": "Date night plan kar raha hun, romantic restaurant suggest karo",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Date night planning"
+  },
+  {
+    "text": "ऑफिस से निकलकर तुरंत कहीं खाना खाना है",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Quick food after office"
+  },
+  {
+    "text": "Family celebration hai, sab ko pasand aane wala place batao",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Family celebration restaurant"
+  },
+  {
+    "text": "Late night hunger strike, kya open rahta hai yahan?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Late night food options"
+  },
+  {
+    "text": "Can you help me avoid food waste?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Food waste prevention"
+  },
+  {
+    "text": "I hate throwing away food",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Hate food waste"
+  },
+  {
+    "text": "My fridge is almost empty but I need to cook",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Empty fridge cooking"
+  },
+  {
+    "text": "Kuch banao jo ghar mein available ingredients se ho",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Available ingredients cooking"
+  },
+  {
+    "text": "घर में कुछ नहीं है फिर भी खाना बनाना है",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Nothing at home cooking"
+  },
+  {
+    "text": "I need something to calm down anxious kids",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Calm anxious kids"
+  },
+  {
+    "text": "Moral teachings through entertainment",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Moral through entertainment"
+  },
+  {
+    "text": "Something like grandma's bedtime stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Grandma bedtime stories"
+  },
+  {
+    "text": "बच्चों को कुछ सिखाना है मगर बोरिंग नहीं होना चाहिए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Teach kids not boring"
+  },
+  {
+    "text": "Entertainment ke साथ कुछ values भी देना चाहता हूं",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Entertainment with values"
+  },
+  {
+    "text": "I need words to express my feelings",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Express feelings through words"
+  },
+  {
+    "text": "Something artistic and beautiful with words",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Artistic beautiful words"
+  },
+  {
+    "text": "Create some beautiful verses for me",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Beautiful verses creation"
+  },
+  {
+    "text": "मन की बात कहने का कलात्मक तरीका चाहिए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Artistic way to express heart"
+  },
+  {
+    "text": "Words में beauty express करना चाहता हूं",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Beauty expression in words"
+  },
+  {
+    "text": "I want music that takes me back in time",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Time travel music"
+  },
+  {
+    "text": "Something that my parents' generation would love",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Parents generation music"
+  },
+  {
+    "text": "Music from the golden era of cinema",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Golden era cinema music"
+  },
+  {
+    "text": "वो गाने जो दादी-नानी के जमाने के हैं",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Grandparents era songs"
+  },
+  {
+    "text": "Purane memories wale songs chahiye",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Old memories songs"
+  },
+  {
+    "text": "I'm hungry and need to find a place to eat",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Hungry need place to eat"
+  },
+  {
+    "text": "Where can I grab a quick bite around here?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Quick bite around here"
+  },
+  {
+    "text": "I need dining recommendations for this area",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Dining recommendations area"
+  },
+  {
+    "text": "भोजन के लिए कोई अच्छी जगह सुझाएं",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Good place for food"
+  },
+  {
+    "text": "Koi achha खाने का स्थान बताइए यहाँ",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Good eating place here"
+  },
+  {
+    "text": "Yesterday ki leftover sabzi से today kya special बना सकते हैं?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Yesterday leftover today special"
+  },
+  {
+    "text": "Kids को entertaining रखने के लिए some अच्छी story suggest करो",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Kids entertaining good story"
+  },
+  {
+    "text": "Heart की feelings को express करने के लिए beautiful poetry चाहिए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Heart feelings express poetry"
+  },
+  {
+    "text": "Mood को अच्छा करने के लिए some classic गाने recommend करो",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Mood good classic songs"
+  },
+  {
+    "text": "यहाँ के area में कोई good eating spots हैं क्या?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Area good eating spots"
+  },
+  {
+    "text": "Yaar, I'm so confused what to cook today",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Casual cooking confusion"
+  },
+  {
+    "text": "Dude, can you help me figure out dinner?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Casual dinner help"
+  },
+  {
+    "text": "यार कुछ समझ नहीं आ रहा खाने में",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Nothing understand in food"
+  },
+  {
+    "text": "Bro, ghar pe kuch ingredients pada hai, help kar do",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Bro ingredients help"
+  },
+  {
+    "text": "Hey, you know any good bedtime stories?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Hey bedtime stories"
+  },
+  {
+    "text": "क्या तुम्हें कोई अच्छी कहानी आती है?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Do you know good story"
+  },
+  {
+    "text": "Kya yaar, koi interesting story pata hai?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "What yaar interesting story"
+  },
+  {
+    "text": "Can you tell me something entertaining for kids?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Something entertaining kids"
+  },
+  {
+    "text": "I'm feeling really emotional right now, need something poetic",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Emotional need poetic"
+  },
+  {
+    "text": "आज बहुत उदास हूं, कुछ दिल को छूने वाली चीज़ चाहिए",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Very sad heart touching thing"
+  },
+  {
+    "text": "Yaar mood thoda off hai, koi achhi poetry sunao na",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Mood off good poetry"
+  },
+  {
+    "text": "I just want some beautiful words right now",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Beautiful words right now"
+  },
+  {
+    "text": "Man, I'm feeling so nostalgic today",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Feeling nostalgic today"
+  },
+  {
+    "text": "आज पुराने दिन याद आ रहे हैं",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Old days remembering today"
+  },
+  {
+    "text": "Yaar, bachpan ki yaadein aa rahi hain",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Childhood memories coming"
+  },
+  {
+    "text": "Can you play something that reminds me of good old days?",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Good old days reminder"
+  },
+  {
+    "text": "Bro, I'm starving, where should I go?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Starving where go"
+  },
+  {
+    "text": "यार भूख बहुत लग रही है, कहाँ जाऊं?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Very hungry where go"
+  },
+  {
+    "text": "Dude, yahan pe koi achhi jagah hai khane ke liye?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Good place here eating"
+  },
+  {
+    "text": "I don't know this area, where do people usually eat?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Don't know area people eat"
+  },
+  {
+    "text": "Hey buddy, what should I do with all this leftover stuff?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Buddy leftover stuff"
+  },
+  {
+    "text": "यार मेरे पास ये सब चीज़ें हैं, कुछ बता दो",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Yaar these things tell something"
+  },
+  {
+    "text": "Arre yaar, help kar do cooking mein",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Arre yaar help cooking"
+  },
+  {
+    "text": "Would you mind sharing a nice story with me?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Mind sharing nice story"
+  },
+  {
+    "text": "अगर आप कोई अच्छी कहानी बता सकें तो...",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "If you can tell good story"
+  },
+  {
+    "text": "Please yaar, koi sundar si kavita suna do",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Please beautiful poem"
+  },
+  {
+    "text": "Oh wow, I'd love to hear some classic music!",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Love classic music"
+  },
+  {
+    "text": "अरे वाह! कुछ पुराने गाने सुनाओ ना",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Oh wow old songs"
+  },
+  {
+    "text": "Awesome! Yahan ka food scene explore karna hai",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Awesome food scene explore"
+  },
+  {
+    "text": "Any suggestions for what I should cook tonight?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Suggestions cook tonight"
+  },
+  {
+    "text": "कुछ सुझाव दे दो आज रात के खाने के लिए",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Some suggestions tonight food"
+  },
+  {
+    "text": "Koi achha suggestion do na yaar",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Good suggestion do yaar"
+  },
+  {
+    "text": "What would you recommend for someone new to this city?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Recommend new city"
+  },
+  {
+    "text": "Yaar ab kya karu, sab ingredients khatam ho gaye",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "What do all ingredients finished"
+  },
+  {
+    "text": "Dude I'm totally clueless about food places here",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Totally clueless food places"
+  },
+  {
+    "text": "Boss, koi dhinchak poetry suna do",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Boss awesome poetry"
+  },
+  {
+    "text": "I would appreciate some guidance on utilizing leftover ingredients",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Formal guidance leftover ingredients"
+  },
+  {
+    "text": "Could you please suggest efficient ways to use remaining food items?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Polite efficient ways remaining food"
+  },
+  {
+    "text": "I would like assistance with meal preparation using available ingredients",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Formal meal preparation assistance"
+  },
+  {
+    "text": "बचे हुए भोजन सामग्री का उपयोग करने की कृपया सलाह दें",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Formal advice leftover food materials"
+  },
+  {
+    "text": "May I request suggestions for utilizing leftover ingredients efficiently?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "May request suggestions efficiently"
+  },
+  {
+    "text": "I would appreciate a narrative suitable for children's education",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Narrative children education"
+  },
+  {
+    "text": "Could you provide an educational story with moral values?",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Educational story moral values"
+  },
+  {
+    "text": "बच्चों के चरित्र निर्माण हेतु कोई उपयुक्त कहानी सुझाएं",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Children character building story"
+  },
+  {
+    "text": "I require a suitable narrative for bedtime storytelling",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Suitable narrative bedtime storytelling"
+  },
+  {
+    "text": "Please provide a story that would be appropriate for young audiences",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Story appropriate young audiences"
+  },
+  {
+    "text": "I would be grateful for some literary composition",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Grateful literary composition"
+  },
+  {
+    "text": "Could you create some verse for artistic purposes?",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Create verse artistic purposes"
+  },
+  {
+    "text": "कृपया कुछ काव्यात्मक रचना प्रस्तुत करें",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Please present poetic creation"
+  },
+  {
+    "text": "I seek assistance in creating poetic expression",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Seek assistance poetic expression"
+  },
+  {
+    "text": "May I request some elegant verses for appreciation?",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Request elegant verses appreciation"
+  },
+  {
+    "text": "I would appreciate recommendations for classical music selections",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Appreciate classical music selections"
+  },
+  {
+    "text": "Could you suggest some traditional melodic compositions?",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Suggest traditional melodic compositions"
+  },
+  {
+    "text": "कृपया पारंपरिक संगीत की अनुशंसा करें",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Please recommend traditional music"
+  },
+  {
+    "text": "I am interested in vintage musical recommendations",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Interested vintage musical recommendations"
+  },
+  {
+    "text": "Please provide suggestions for nostalgic musical content",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Suggestions nostalgic musical content"
+  },
+  {
+    "text": "I would appreciate dining establishment recommendations",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Appreciate dining establishment recommendations"
+  },
+  {
+    "text": "Could you suggest reputable restaurants in this vicinity?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Suggest reputable restaurants vicinity"
+  },
+  {
+    "text": "भोजन के लिए उचित स्थानों की जानकारी प्रदान करें",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Provide information suitable places food"
+  },
+  {
+    "text": "I require assistance in locating quality dining options",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Require assistance quality dining options"
+  },
+  {
+    "text": "May I request information about local culinary establishments?",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Request information local culinary establishments"
+  },
+  {
+    "text": "I need culinary solutions for office meal preparation",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Culinary solutions office meal preparation"
+  },
+  {
+    "text": "व्यावसायिक उद्देश्य से भोजन तैयारी में सहायता चाहिए",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Professional purpose food preparation help"
+  },
+  {
+    "text": "I require content suitable for educational storytelling",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Content suitable educational storytelling"
+  },
+  {
+    "text": "Please provide literary content for presentation purposes",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Literary content presentation purposes"
+  },
+  {
+    "text": "Purane gaane sunao yaar",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Clear old songs request"
+  },
+  {
+    "text": "90s ke hit songs baja do",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "90s music request"
+  },
+  {
+    "text": "Gaane recommend karo purane",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Recommend old songs"
+  },
+  {
+    "text": "Music baja do nostalgic",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play nostalgic music"
+  },
+  {
+    "text": "गाने सुनना है classic",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Want to listen classic songs"
+  },
+  {
+    "text": "Songs play karo 80s ke",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play 80s songs"
+  },
+  {
+    "text": "Melodious gaane recommend करो",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Recommend melodic songs"
+  },
+  {
+    "text": "Classical music sunao hindi",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Hindi classical music"
+  },
+  {
+    "text": "Khana banana hai leftover se",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Cook food from leftovers"
+  },
+  {
+    "text": "Recipe बताओ बचे खाने की",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Recipe for leftover food"
+  },
+  {
+    "text": "Cooking tips chahiye urgent",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Urgent cooking tips"
+  },
+  {
+    "text": "Sabzi banana hai leftover rice se",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Make vegetable from leftover rice"
+  },
+  {
+    "text": "Meal prep करना है बचे खाने से",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Meal prep from leftovers"
+  },
+  {
+    "text": "If it's not too much trouble, could you help with meal planning?",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Not trouble help meal planning"
+  },
+  {
+    "text": "I would be most grateful for your assistance with dining recommendations",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Most grateful assistance dining recommendations"
+  },
+  {
+    "text": "यदि संभव हो तो कृपया उपयुक्त संगीत सुझाव दें",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "If possible please suitable music suggestions"
+  },
+  {
+    "text": "I would be honored if you could share some poetry",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Honored share some poetry"
+  },
+  {
+    "text": "Audio sunna hai old songs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Want to listen old songs audio"
+  },
+  {
+    "text": "Melodic tunes recommend karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Recommend melodic tunes"
+  },
+  {
+    "text": "Vintage music collection batao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Tell vintage music collection"
+  },
+  {
+    "text": "Golden era के गाने suggest करो",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Suggest golden era songs"
+  },
+  {
+    "text": "Songs nahi banana, sunana hai",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Not making songs, want to listen"
+  },
+  {
+    "text": "Music play करो, cooking नहीं",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play music not cooking"
+  },
+  {
+    "text": "गाने listen करना है, बनाना नहीं",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Want to listen songs not make"
+  },
+  {
+    "text": "Purane gaane baja do please",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Please play old songs"
+  },
+  {
+    "text": "Classic songs sunao yaar",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Listen classic songs friend"
+  },
+  {
+    "text": "Old melodies recommend karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Recommend old melodies"
+  },
+  {
+    "text": "Vintage music collection dikhao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Show vintage music collection"
+  },
+  {
+    "text": "70s 80s ke gaane play karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play 70s 80s songs"
+  },
+  {
+    "text": "Nostalgic tunes chahiye",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Need nostalgic tunes"
+  },
+  {
+    "text": "Golden era music recommend करो",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Recommend golden era music"
+  },
+  {
+    "text": "पुराने गाने सुनने हैं",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Want to listen old songs"
+  },
+  {
+    "text": "Melodious songs suggest karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Suggest melodious songs"
+  },
+  {
+    "text": "Music sunna hai romantic",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Want to listen romantic music"
+  },
+  {
+    "text": "Songs chahiye mood ke liye",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Need songs for mood"
+  },
+  {
+    "text": "Audio music recommendations",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Audio music recommendations"
+  },
+  {
+    "text": "Classical bollywood gaane",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Classical bollywood songs"
+  },
+  {
+    "text": "Timeless melodies sunao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play timeless melodies"
+  },
+  {
+    "text": "Evergreen songs collection",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Evergreen songs collection"
+  },
+  {
+    "text": "संगीत सुझाव दीजिए पुराना",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Please suggest old music"
+  },
+  {
+    "text": "Retro music baja do",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play retro music"
+  },
+  {
+    "text": "Play some vintage tunes",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Play vintage tunes"
+  },
+  {
+    "text": "Old hindi film songs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Old hindi film songs"
+  },
+  {
+    "text": "Classical indian music recommend",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Classical indian music recommend"
+  },
+  {
+    "text": "Leftover rice se kya banau",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "What to make from leftover rice"
+  },
+  {
+    "text": "Bache hue khane ka recipe",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Recipe for leftover food"
+  },
+  {
+    "text": "Cooking tips for leftovers",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Cooking tips leftovers"
+  },
+  {
+    "text": "Recipe chahiye quick",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Need quick recipe"
+  },
+  {
+    "text": "Khana banana sikhao",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Teach to cook food"
+  },
+  {
+    "text": "Food preparation help",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Food preparation help"
+  },
+  {
+    "text": "बचे खाने से कुछ बनाना है",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Want to make something from leftovers"
+  },
+  {
+    "text": "Kitchen mein kya banau",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "What to make in kitchen"
+  },
+  {
+    "text": "Sabzi banana hai innovative",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Want to make innovative vegetable"
+  },
+  {
+    "text": "Culinary suggestions needed",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Culinary suggestions needed"
+  },
+  {
+    "text": "Dish banane ki recipe",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Recipe to make dish"
+  },
+  {
+    "text": "Cook karne ka tarika",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Way to cook"
+  },
+  {
+    "text": "Food wastage bachane ke liye",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "To save food wastage"
+  },
+  {
+    "text": "Creative cooking ideas",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Creative cooking ideas"
+  },
+  {
+    "text": "Bacchon ke liye kahani sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Tell story for children"
+  },
+  {
+    "text": "Moral story batao please",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Please tell moral story"
+  },
+  {
+    "text": "Kids ke liye tale",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Tale for kids"
+  },
+  {
+    "text": "बच्चों की कहानी सुनाइए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Please tell children's story"
+  },
+  {
+    "text": "Bedtime story chahiye",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Need bedtime story"
+  },
+  {
+    "text": "Educational tale batao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Tell educational tale"
+  },
+  {
+    "text": "Story time for kids",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Story time for kids"
+  },
+  {
+    "text": "Nani ki kahaniyan sunao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Tell grandma's stories"
+  },
+  {
+    "text": "Children's narrative needed",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Children's narrative needed"
+  },
+  {
+    "text": "Teaching story batao",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Tell teaching story"
+  },
+  {
+    "text": "Poetry sunao romantic",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Recite romantic poetry"
+  },
+  {
+    "text": "Kavita likhkar dikhao",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Write and show poem"
+  },
+  {
+    "text": "Love poem create karo",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Create love poem"
+  },
+  {
+    "text": "कविता सुनाने का मन है",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Feel like listening to poetry"
+  },
+  {
+    "text": "Verses generate karo",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Generate verses"
+  },
+  {
+    "text": "Poetic creation chahiye",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Need poetic creation"
+  },
+  {
+    "text": "Beautiful poem compose",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Compose beautiful poem"
+  },
+  {
+    "text": "Shayari sunao emotional",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Recite emotional poetry"
+  },
+  {
+    "text": "Literary creation needed",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Literary creation needed"
+  },
+  {
+    "text": "Rhyme banao creative",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Make creative rhyme"
+  },
+  {
+    "text": "Nearby restaurants batao",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Tell nearby restaurants"
+  },
+  {
+    "text": "Paas mein kahan khana mile",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Where to get food nearby"
+  },
+  {
+    "text": "Food places recommend karo",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Recommend food places"
+  },
+  {
+    "text": "आसपास रेस्टोरेंट ढूंढो",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Find restaurants around"
+  },
+  {
+    "text": "Dining options near me",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Dining options near me"
+  },
+  {
+    "text": "Local eateries suggest",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Suggest local eateries"
+  },
+  {
+    "text": "Khane ke liye jagah batao",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Tell place to eat"
+  },
+  {
+    "text": "Restaurant finder chahiye",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Need restaurant finder"
+  },
+  {
+    "text": "Food delivery options",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Food delivery options"
+  },
+  {
+    "text": "Best cafes around here",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Best cafes around here"
+  },
+  {
+    "text": "I WANT TO LISTEN TO OLD SONGS",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Clear music request caps"
+  },
+  {
+    "text": "I NEED COOKING RECIPE NOW",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Clear recipe request caps"
+  },
+  {
+    "text": "TELL ME A STORY FOR CHILDREN",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Clear story request caps"
+  },
+  {
+    "text": "CREATE BEAUTIFUL POETRY",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Clear poetry request caps"
+  },
+  {
+    "text": "FIND RESTAURANTS NEARBY",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Clear restaurant request caps"
+  },
+  {
+    "text": "संगीत चलाओ तुरंत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Play music immediately"
+  },
+  {
+    "text": "खाना बनाना सिखाओ अभी",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Teach cooking now"
+  },
+  {
+    "text": "कहानी सुनाओ जल्दी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Tell story quickly"
+  },
+  {
+    "text": "कविता लिखो फौरन",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Write poem immediately"
+  },
+  {
+    "text": "रेस्टोरेंट खोजो आज",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Find restaurant today"
+  },
+  {
+    "text": "Soulful melodies sunao please",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Soulful melodies request"
+  },
+  {
+    "text": "Yesteryears ki hits batao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Yesteryears hits"
+  },
+  {
+    "text": "धुन वाले पुराने गीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Melodious old songs"
+  },
+  {
+    "text": "Timeless classical tracks",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Timeless classical tracks"
+  },
+  {
+    "text": "स्वर्णिम युग के संगीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Golden age music"
+  },
+  {
+    "text": "Mood lifting old songs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Mood lifting old songs"
+  },
+  {
+    "text": "आत्मा को छूने वाले गाने",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Soul touching songs"
+  },
+  {
+    "text": "Heritage music collection",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Heritage music collection"
+  },
+  {
+    "text": "Traditional film songs batao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Traditional film songs"
+  },
+  {
+    "text": "Vintage bollywood melodies",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Vintage bollywood melodies"
+  },
+  {
+    "text": "Transform leftovers into gourmet",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Transform leftovers gourmet"
+  },
+  {
+    "text": "बचे खाने को टेस्टी बनाओ",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Make leftovers tasty"
+  },
+  {
+    "text": "Innovative leftover makeover",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Innovative leftover makeover"
+  },
+  {
+    "text": "कल के खाने से नया व्यंजन",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "New dish from yesterday's food"
+  },
+  {
+    "text": "Creative fusion with leftovers",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Creative fusion leftovers"
+  },
+  {
+    "text": "बचे सामान से मजेदार खाना",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Fun food from leftover items"
+  },
+  {
+    "text": "Repurpose yesterday's meal",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Repurpose yesterday's meal"
+  },
+  {
+    "text": "बासी खाने को फ्रेश बनाओ",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Make stale food fresh"
+  },
+  {
+    "text": "Zero waste cooking ideas",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Zero waste cooking ideas"
+  },
+  {
+    "text": "रीसायकल फूड रेसिपी",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Recycle food recipe"
+  },
+  {
+    "text": "Wisdom tales for bedtime",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Wisdom tales bedtime"
+  },
+  {
+    "text": "प्रेरणादायक बाल कथा",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Inspirational children's story"
+  },
+  {
+    "text": "Character building stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Character building stories"
+  },
+  {
+    "text": "मूल्यों वाली कहानी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Values based story"
+  },
+  {
+    "text": "Life lesson narratives",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Life lesson narratives"
+  },
+  {
+    "text": "सीख देने वाली कथा",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Teaching story"
+  },
+  {
+    "text": "Bedtime moral fables",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Bedtime moral fables"
+  },
+  {
+    "text": "बुद्धिमत्ता की कहानी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Wisdom story"
+  },
+  {
+    "text": "Traditional folk stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Traditional folk stories"
+  },
+  {
+    "text": "लोक कथा सुनाइए",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Tell folk tale"
+  },
+  {
+    "text": "Heartfelt verses create karo",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Create heartfelt verses"
+  },
+  {
+    "text": "भावनाओं की कविता",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Emotional poetry"
+  },
+  {
+    "text": "Expressive poetry composition",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Expressive poetry composition"
+  },
+  {
+    "text": "दिल से निकली शायरी",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Poetry from heart"
+  },
+  {
+    "text": "Soulful rhymes and verses",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Soulful rhymes verses"
+  },
+  {
+    "text": "प्रेम रस भरी कविता",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Love filled poetry"
+  },
+  {
+    "text": "Artistic word composition",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Artistic word composition"
+  },
+  {
+    "text": "छंदों में बंधी भावना",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Emotions bound in verses"
+  },
+  {
+    "text": "Creative literary expression",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Creative literary expression"
+  },
+  {
+    "text": "काव्य की मधुर धारा",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Sweet stream of poetry"
+  },
+  {
+    "text": "Culinary hotspots nearby",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Culinary hotspots nearby"
+  },
+  {
+    "text": "स्वादिष्ट भोजन कहाँ मिले",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Where to get delicious food"
+  },
+  {
+    "text": "Gastronomic destinations suggest",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Gastronomic destinations"
+  },
+  {
+    "text": "खाने की बेहतरीन जगह",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Excellent food places"
+  },
+  {
+    "text": "Food paradise locations",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Food paradise locations"
+  },
+  {
+    "text": "मुंह में पानी लाने वाले स्थान",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Mouth watering places"
+  },
+  {
+    "text": "Epicurean experiences nearby",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Epicurean experiences nearby"
+  },
+  {
+    "text": "स्थानीय खाद्य विशेषज्ञता",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Local food specialties"
+  },
+  {
+    "text": "Gourmet dining destinations",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Gourmet dining destinations"
+  },
+  {
+    "text": "स्वाद के साम्राज्य",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Kingdoms of taste"
+  },
+  {
+    "text": "Legendary songs from past eras",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Legendary past era songs"
+  },
+  {
+    "text": "प्राचीन काल के मधुर गीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Ancient melodious songs"
+  },
+  {
+    "text": "Immortal tunes sunao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Play immortal tunes"
+  },
+  {
+    "text": "Historical film music collection",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Historical film music"
+  },
+  {
+    "text": "राग आधारित पुराने गीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Raga based old songs"
+  },
+  {
+    "text": "Emotional melodies from yesteryears",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Emotional yesteryear melodies"
+  },
+  {
+    "text": "दादाजी पसंदीदा संगीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Grandfather's favorite music"
+  },
+  {
+    "text": "Ghazal aur purane gaane",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Ghazal and old songs"
+  },
+  {
+    "text": "Orchestral vintage compositions",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Orchestral vintage compositions"
+  },
+  {
+    "text": "साहित्यिक गीत सुनाइए",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Literary songs please"
+  },
+  {
+    "text": "Gourmet transformation of remnants",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Gourmet transformation remnants"
+  },
+  {
+    "text": "अवशेष भोजन का कलात्मक उपयोग",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Artistic use of leftover food"
+  },
+  {
+    "text": "Culinary magic with leftovers",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Culinary magic leftovers"
+  },
+  {
+    "text": "पुराने खाने को नया रूप",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "New form to old food"
+  },
+  {
+    "text": "Sustainable cooking practices",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Sustainable cooking practices"
+  },
+  {
+    "text": "बचत व्यंजन विधि",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Economical dish method"
+  },
+  {
+    "text": "Reinventing yesterday's cuisine",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Reinventing yesterday's cuisine"
+  },
+  {
+    "text": "खाना फिर से बनाने की तकनीक",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Technique to remake food"
+  },
+  {
+    "text": "Elevate leftover ingredients",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Elevate leftover ingredients"
+  },
+  {
+    "text": "अतिरिक्त सामग्री का सदुपयोग",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Good use of extra ingredients"
+  },
+  {
+    "text": "Mythological tales for children",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Mythological children tales"
+  },
+  {
+    "text": "पौराणिक बाल कथाएं",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Mythological children stories"
+  },
+  {
+    "text": "Adventure stories for kids",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Adventure stories kids"
+  },
+  {
+    "text": "रोमांचकारी बच्चों की कहानी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Thrilling children's story"
+  },
+  {
+    "text": "Fairy tale narratives",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Fairy tale narratives"
+  },
+  {
+    "text": "परी कथा सुनाना",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Tell fairy tale"
+  },
+  {
+    "text": "Inspirational bedtime stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Inspirational bedtime stories"
+  },
+  {
+    "text": "प्रेरणादायक रात्रि कथा",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Inspirational night story"
+  },
+  {
+    "text": "Imaginative children narratives",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Imaginative children narratives"
+  },
+  {
+    "text": "कल्पनाशील बाल कहानी",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Imaginative children story"
+  },
+  {
+    "text": "Metaphorical poetry creation",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Metaphorical poetry creation"
+  },
+  {
+    "text": "रूपक आधारित कविता",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Metaphor based poetry"
+  },
+  {
+    "text": "Rhythmic verse composition",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Rhythmic verse composition"
+  },
+  {
+    "text": "लयबद्ध काव्य रचना",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Rhythmic poetry creation"
+  },
+  {
+    "text": "Abstract poetic expressions",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Abstract poetic expressions"
+  },
+  {
+    "text": "अमूर्त भावनाओं की कविता",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Abstract emotions poetry"
+  },
+  {
+    "text": "Contemplative poetry writing",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Contemplative poetry writing"
+  },
+  {
+    "text": "चिंतनशील काव्य लेखन",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Thoughtful poetry writing"
+  },
+  {
+    "text": "Philosophical verse creation",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Philosophical verse creation"
+  },
+  {
+    "text": "दर्शनिक पद्य निर्माण",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Philosophical verse creation"
+  },
+  {
+    "text": "Authentic regional cuisines nearby",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Authentic regional cuisines"
+  },
+  {
+    "text": "क्षेत्रीय व्यंजन विशेषज्ञता",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Regional cuisine specialties"
+  },
+  {
+    "text": "Hidden culinary gems",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Hidden culinary gems"
+  },
+  {
+    "text": "छुपे हुए भोजन रत्न",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Hidden food gems"
+  },
+  {
+    "text": "Artisanal food establishments",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Artisanal food establishments"
+  },
+  {
+    "text": "हस्तकला भोजनालय",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Artisanal eateries"
+  },
+  {
+    "text": "Boutique dining experiences",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Boutique dining experiences"
+  },
+  {
+    "text": "विशिष्ट भोजन अनुभव",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Unique dining experience"
+  },
+  {
+    "text": "Farm-to-table restaurants",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Farm-to-table restaurants"
+  },
+  {
+    "text": "कृषि से मेज तक भोजनालय",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Farm to table eatery"
+  },
+  {
+    "text": "Sonic heritage from golden period",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Sonic heritage golden period"
+  },
+  {
+    "text": "काल के कालजयी संगीत",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Timeless music of the era"
+  },
+  {
+    "text": "Therapeutic leftover cuisine",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Therapeutic leftover cuisine"
+  },
+  {
+    "text": "चिकित्सकीय बचे खाने की विधि",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Therapeutic leftover recipe"
+  },
+  {
+    "text": "Philosophical children narratives",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Philosophical children narratives"
+  },
+  {
+    "text": "तत्वज्ञान भरी बाल कथा",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Philosophy filled children story"
+  },
+  {
+    "text": "Transcendental poetry forms",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Transcendental poetry forms"
+  },
+  {
+    "text": "अतींद्रिय काव्य स्वरूप",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Transcendental poetry form"
+  },
+  {
+    "text": "Molecular gastronomy venues",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Molecular gastronomy venues"
+  },
+  {
+    "text": "आणविक पाक कला स्थल",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Molecular culinary places"
+  },
+  {
+    "text": "Harmonious vintage melodies seek karo",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Seek harmonious vintage melodies"
+  },
+  {
+    "text": "Leftover transformation ke expert tips",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Expert leftover transformation tips"
+  },
+  {
+    "text": "Storytelling ka magical experience",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Magical storytelling experience"
+  },
+  {
+    "text": "Poetic journey pe jana hai",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Want to go on poetic journey"
+  },
+  {
+    "text": "Dining exploration ke liye spots",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Spots for dining exploration"
+  },
+  {
+    "text": "Ethereal music recommendations",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Ethereal music recommendations"
+  },
+  {
+    "text": "Alchemy of leftover cooking",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Alchemy leftover cooking"
+  },
+  {
+    "text": "Pedagogical story elements",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Pedagogical story elements"
+  },
+  {
+    "text": "Linguistic poetry mastery",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Linguistic poetry mastery"
+  },
+  {
+    "text": "Culinary anthropology sites",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Culinary anthropology sites"
+  },
+  {
+    "text": "संगीत की आध्यात्मिक यात्रा",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Spiritual journey of music"
+  },
+  {
+    "text": "भोजन पुनर्निर्माण की कला",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Art of food reconstruction"
+  },
+  {
+    "text": "नैतिक शिक्षा की कहानियां",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Moral education stories"
+  },
+  {
+    "text": "भाषा की काव्यात्मक शक्ति",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Poetic power of language"
+  },
+  {
+    "text": "खाद्य संस्कृति के केंद्र",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Centers of food culture"
+  },
+  {
+    "text": "Psychedelic music journey batao",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Tell psychedelic music journey"
+  },
+  {
+    "text": "Leftover science ka practical approach",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Practical leftover science approach"
+  },
+  {
+    "text": "Narrative therapy ke through stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Stories through narrative therapy"
+  },
+  {
+    "text": "Semantic poetry ka creation",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Semantic poetry creation"
+  },
+  {
+    "text": "Gastronomic archaeology ke places",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Places of gastronomic archaeology"
+  },
+  {
+    "text": "Atmospheric soundscapes from past",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Atmospheric past soundscapes"
+  },
+  {
+    "text": "Metamorphosis of remnant ingredients",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Metamorphosis remnant ingredients"
+  },
+  {
+    "text": "Archetypal storytelling patterns",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Archetypal storytelling patterns"
+  },
+  {
+    "text": "Synesthetic poetry experiences",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Synesthetic poetry experiences"
+  },
+  {
+    "text": "Ethnographic dining establishments",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Ethnographic dining establishments"
+  },
+  {
+    "text": "संगीत की कालजयी धुनें",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Timeless melodies of music"
+  },
+  {
+    "text": "बचे भोजन का वैज्ञानिक उपयोग",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Scientific use of leftover food"
+  },
+  {
+    "text": "कथा सुनाने की पारंपरिक कला",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Traditional art of storytelling"
+  },
+  {
+    "text": "कविता रचना की गहन प्रक्रिया",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Deep process of poetry creation"
+  },
+  {
+    "text": "भोजन की सामाजिक परंपराएं",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Social traditions of food"
+  },
+  {
+    "text": "Sonic archaeology ke rare gems",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Rare gems of sonic archaeology"
+  },
+  {
+    "text": "Kitchen laboratory mein experiments",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Experiments in kitchen laboratory"
+  },
+  {
+    "text": "Storytelling ke therapeutic benefits",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Therapeutic benefits of storytelling"
+  },
+  {
+    "text": "Verse engineering ka advanced form",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Advanced verse engineering form"
+  },
+  {
+    "text": "Culinary geography ke exploration spots",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Culinary geography exploration spots"
+  },
+  {
+    "text": "Dimensional music from epochs",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Dimensional music from epochs"
+  },
+  {
+    "text": "Biochemical leftover transformations",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Biochemical leftover transformations"
+  },
+  {
+    "text": "Anthropological children narratives",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Anthropological children narratives"
+  },
+  {
+    "text": "Quantum poetry mechanics",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Quantum poetry mechanics"
+  },
+  {
+    "text": "Sociological food spaces",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Sociological food spaces"
+  },
+  {
+    "text": "ध्वनि की पुरातत्विक खोज",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Archaeological exploration of sound"
+  },
+  {
+    "text": "अवशिष्ट भोजन का रसायन विज्ञान",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Chemistry of leftover food"
+  },
+  {
+    "text": "कहानी कहने का मनोवैज्ञानिक प्रभाव",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Psychological impact of storytelling"
+  },
+  {
+    "text": "काव्य रचना का दर्शनशास्त्र",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Philosophy of poetry creation"
+  },
+  {
+    "text": "भोजन का सामाजिक भूगोल",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Social geography of food"
+  },
+  {
+    "text": "Musical archaeology ke treasures discover",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Discover musical archaeology treasures"
+  },
+  {
+    "text": "Food waste management ke creative solutions",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Creative food waste management solutions"
+  },
+  {
+    "text": "Narrative psychology ke children stories",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Children stories narrative psychology"
+  },
+  {
+    "text": "Linguistic poetry ke artistic dimensions",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Artistic dimensions linguistic poetry"
+  },
+  {
+    "text": "Food anthropology ke research sites",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Food anthropology research sites"
+  },
+  {
+    "text": "Temporal music consciousness",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Temporal music consciousness"
+  },
+  {
+    "text": "Molecular leftover gastronomy",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Molecular leftover gastronomy"
+  },
+  {
+    "text": "Developmental storytelling methodologies",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Developmental storytelling methodologies"
+  },
+  {
+    "text": "Computational poetry algorithms",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Computational poetry algorithms"
+  },
+  {
+    "text": "Geographical food cultural centers",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Geographical food cultural centers"
+  },
+  {
+    "text": "संगीत की चेतना संरचना",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Consciousness structure of music"
+  },
+  {
+    "text": "भोजन अपशिष्ट का नवाचार",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Innovation of food waste"
+  },
+  {
+    "text": "बाल विकास की कथा पद्धति",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Child development storytelling methodology"
+  },
+  {
+    "text": "कविता की संगणनात्मक कलगोरिदम",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Computational algorithms of poetry"
+  },
+  {
+    "text": "भौगोलिक खाद्य सांस्कृतिक केंद्र",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Geographical food cultural centers"
+  },
+  {
+    "text": "Consciousness streaming ke musical patterns",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Musical patterns consciousness streaming"
+  },
+  {
+    "text": "Quantum leftover cooking ke principles",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Quantum leftover cooking principles"
+  },
+  {
+    "text": "Therapeutic storytelling ke healing aspects",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Healing aspects therapeutic storytelling"
+  },
+  {
+    "text": "Metaphysical poetry ke transcendent forms",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Transcendent metaphysical poetry forms"
+  },
+  {
+    "text": "Cultural food archaeology ke expedition sites",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Cultural food archaeology expedition sites"
+  },
+  {
+    "text": "Interdimensional vintage soundwaves",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "english",
+    "description": "Interdimensional vintage soundwaves"
+  },
+  {
+    "text": "Transformational leftover alchemy",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "english",
+    "description": "Transformational leftover alchemy"
+  },
+  {
+    "text": "Evolutionary storytelling paradigms",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "english",
+    "description": "Evolutionary storytelling paradigms"
+  },
+  {
+    "text": "Transcendental verse architecture",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "english",
+    "description": "Transcendental verse architecture"
+  },
+  {
+    "text": "Phenomenological dining experiences",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "english",
+    "description": "Phenomenological dining experiences"
+  },
+  {
+    "text": "संगीत की अंतर्दर्शी यात्रा",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hindi",
+    "description": "Introspective journey of music"
+  },
+  {
+    "text": "भोजन रूपांतरण की रसायनिक कला",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hindi",
+    "description": "Chemical art of food transformation"
+  },
+  {
+    "text": "कथा चिकित्सा की उपचारात्मक शक्ति",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hindi",
+    "description": "Therapeutic power of story therapy"
+  },
+  {
+    "text": "काव्य की आध्यात्मिक संरचना",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hindi",
+    "description": "Spiritual structure of poetry"
+  },
+  {
+    "text": "भोजन की घटनाविज्ञानी अनुभव",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hindi",
+    "description": "Phenomenological experience of food"
+  },
+  {
+    "text": "Musical consciousness ke dimensional explorations",
+    "intent": "music_recommendation",
+    "tool": "vividh_bharti",
+    "language": "hinglish",
+    "description": "Dimensional explorations musical consciousness"
+  },
+  {
+    "text": "Leftover metamorphosis ke alchemical processes",
+    "intent": "recipe_suggestion",
+    "tool": "leftover_chef",
+    "language": "hinglish",
+    "description": "Alchemical processes leftover metamorphosis"
+  },
+  {
+    "text": "Narrative therapy ke evolutionary storytelling",
+    "intent": "story_telling",
+    "tool": "nani_kahaniyan",
+    "language": "hinglish",
+    "description": "Evolutionary storytelling narrative therapy"
+  },
+  {
+    "text": "Poetry architecture ke transcendental designs",
+    "intent": "poem_generation",
+    "tool": "poem_generator",
+    "language": "hinglish",
+    "description": "Transcendental designs poetry architecture"
+  },
+  {
+    "text": "Food phenomenology ke experiential dining",
+    "intent": "food_location",
+    "tool": "food_locator",
+    "language": "hinglish",
+    "description": "Experiential dining food phenomenology"
+  }
+]
