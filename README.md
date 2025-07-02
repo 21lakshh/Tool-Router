@@ -13,8 +13,8 @@ This project demonstrates a **comprehensive solution to measure the accuracy of 
 graph TD
     A[User Input<br/>Hindi/English/Hinglish] --> B[MultilingualToolRouter]
     B --> C{Routing Method}
-    C -->|Primary| D[Semantic Embedding<br/>Similarity]
-    C -->|Backup| E[Intent Classification<br/>Model]
+    C -->|Primary| E[Intent Classification<br/>Model] 
+    C -->|Backup| D[Semantic Embedding<br/>Similarity]
     D --> F[Confidence Check]
     E --> F
     F --> G{Confidence > Threshold?}
