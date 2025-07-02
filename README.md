@@ -376,9 +376,8 @@ python demo_hybrid_routing.py
 
 The intent classification model achieves excellent performance:
 - **Training Loss**: 0.10 (very low, indicating good learning)
-- **Validation Accuracy**: 95%+  
 - **Base Model**: paraphrase-multilingual-MiniLM-L12-v2 (fine-tuned)
-- **Training Time**: ~10 minutes on standard hardware
+- **Training Time**: ~5min minutes on standard hardware
 
 ---
 
@@ -399,15 +398,6 @@ The intent classification model achieves excellent performance:
 - **Cultural Context Preservation**: "Ghar ke baatein" vs generic home conversations
 - **Hybrid Architecture**: Multiple routing methods with intelligent fallbacks
 
-### Performance Insights
-
-- **English/Hindi**: 100% accuracy (pure languages work perfectly)
-- **Hinglish Challenge**: 40% accuracy (main improvement opportunity)
-- **Tool Selection**: High precision (when confident, usually correct)
-- **Edge Case Handling**: Robust fallback to clarification
-
----
-
 ## 🚧 Future Improvements
 
 ### Immediate Focus: Improving Hinglish Accuracy
@@ -419,13 +409,6 @@ Current issue: "Ghar mein leftover rice hai kuch banau?" sometimes routes incorr
 2. **Improved Language Detection**: Better Roman Hindi word recognition  
 3. **Context-Aware Embeddings**: Fine-tune on Indian conversation patterns
 4. **Threshold Optimization**: Per-language confidence thresholds
-
-### Advanced Features
-- **Conversation Memory**: Remember user preferences across sessions
-- **Dynamic Tool Addition**: Easy addition of new tools without retraining
-- **Voice Input**: Hindi/English speech recognition integration
-- **Regional Variations**: Support for different Indian language patterns
-
 ---
 
 ## 🏆 Project Impact
