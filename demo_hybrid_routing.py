@@ -305,7 +305,7 @@ def main():
     """Main demo function"""
     logger.info("🚀 HYBRID ROUTING APPROACH DEMO")
     logger.info("=" * 60)
-    logger.info("Testing both semantic embedding and intent classification approaches")
+    logger.info("Testing intent classification (primary) and semantic embedding (backup) approaches")
     logger.info("")
     
     # Initialize components
@@ -320,11 +320,11 @@ def main():
     # Run all tests
     results = {}
     
-    # Test 1: Semantic Embedding Only
-    results['semantic'] = test_semantic_routing(router, test_cases)
-    
-    # Test 2: Intent Classification Only  
+    # Test 1: Intent Classification (Primary approach)
     results['intent'] = test_intent_classification(intent_classifier, test_cases)
+    
+    # Test 2: Semantic Embedding (Backup approach)
+    results['semantic'] = test_semantic_routing(router, test_cases)
     
     # Test 3: Hybrid Approach
     results['hybrid'] = test_hybrid_approach(router, intent_classifier, test_cases)
@@ -332,9 +332,9 @@ def main():
     # Summary
     logger.info("\n📈 FINAL COMPARISON RESULTS")
     logger.info("=" * 50)
-    logger.info(f"🔍 Semantic Embedding:     {results['semantic']:.1f}%")
-    logger.info(f"🧠 Intent Classification:  {results['intent']:.1f}%")
-    logger.info(f"🔀 Hybrid Approach:        {results['hybrid']:.1f}%")
+    logger.info(f"🧠 Intent Classification (Primary):  {results['intent']:.1f}%")
+    logger.info(f"🔍 Semantic Embedding (Backup):     {results['semantic']:.1f}%")
+    logger.info(f"🔀 Hybrid Approach:                 {results['hybrid']:.1f}%")
     
     # Determine best approach
     best_method = max(results, key=results.get)

@@ -4,24 +4,6 @@
 
 This project demonstrates a **comprehensive solution to measure the accuracy of correct MCP tool selection when dealing with multilingual inputs (Hindi + English text)**. It was built to address the core interview question from Puch AI about handling tool routing in multilingual scenarios.
 
-### The Puch AI Interview Challenge
-
-> "How will you measure the accuracy of the correct MCP tool being called upon different language input (Hindi + English text)?"
-
-**The feedback indicated two key areas to understand:**
-1. **Routing between multiple tools** - How to intelligently select the right tool
-2. **Multilinguality** - Handling Hindi, English, and Hinglish seamlessly
-
-### Our Complete Solution
-
-We built a production-ready system that demonstrates:
-- ✅ **Semantic embedding-based multilingual tool routing**
-- ✅ **Comprehensive accuracy measurement framework** 
-- ✅ **Multiple routing approaches** (semantic similarity + intent classification)
-- ✅ **Real-world evaluation** with 20+ test cases across 3 languages
-- ✅ **8 fully functional MCP tools** with intelligent routing
-- ✅ **Production-ready architecture** with confidence scoring and fallbacks
-
 ---
 
 ## 🏗️ System Architecture
@@ -32,8 +14,8 @@ We built a production-ready system that demonstrates:
 graph TD
     A[User Input<br/>Hindi/English/Hinglish] --> B[MultilingualToolRouter]
     B --> C{Routing Method}
-    C -->|Primary| D[Semantic Embedding<br/>Similarity]
-    C -->|Backup| E[Intent Classification<br/>Model]
+    C -->|Primary| E[Intent Classification<br/>Model]
+    C -->|Backup| D[Semantic Embedding<br/>Similarity]
     D --> F[Confidence Check]
     E --> F
     F --> G{Confidence > Threshold?}
@@ -46,15 +28,15 @@ graph TD
 
 ### Dual Routing Architecture
 
-1. **Primary: Semantic Embedding Approach**
-   - Uses `paraphrase-multilingual-MiniLM-L12-v2`
-   - Pre-computed tool embeddings in Hindi, English, Hinglish
-   - Cosine similarity matching with confidence thresholds
-
-2. **Secondary: Intent Classification Model**
-   - Trained DistilBERT model on custom dataset
+1. **Primary: Intent Classification Model**
+   - Trained paraphrase-multilingual-MiniLM-L12-v2 model on custom dataset
    - 540+ training examples across 5 intents
    - Stored in `intent_model/` with full checkpoints
+
+2. **Secondary: Semantic Embedding Approach**
+   - Uses `paraphrase-multilingual-MiniLM-L12-v2`
+   - Pre-computed tool embeddings in Hindi, English, Hinglish
+   - Cosine similarity matching with confidence threshold
 
 ---
 
@@ -128,10 +110,10 @@ graph TD
 
 We explored two approaches for multilingual tool routing:
 
-#### 1. Intent Classification Model (Trained)
+#### 1. Intent Classification Model (Primary)
 ```bash
 # Training details
-Model: DistilBERT for sequence classification
+Model: paraphrase-multilingual-MiniLM-L12-v2 (fine-tuned for sequence classification)
 Dataset: 540+ examples across 5 intents in 3 languages
 Training epochs: 3
 Final training loss: 0.10
@@ -151,19 +133,19 @@ Location: intent_model/ directory with full checkpoints
 }
 ```
 
-#### 2. Semantic Embedding Approach (Current)
+#### 2. Semantic Embedding Approach (Backup)
 ```python
 # Model details
-Transformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Transformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (same base model)
 Approach: Pre-compute tool embeddings, match user input via cosine similarity
-Thresholds: 0.4 across all tools (optimized for 70% accuracy)
+Thresholds: 0.4 across all tools (used as fallback when intent model is uncertain)
 ```
 
-**Why We Chose Semantic Embeddings:**
-- ✅ **No training required** - Works immediately with new tools
-- ✅ **Better generalization** - Handles unseen phrasings naturally
-- ✅ **Cultural context preservation** - Understands cultural nuances
-- ✅ **Real-time adaptability** - Easy to add new tools without retraining
+**Why Intent Classification is Primary:**
+- ✅ **Trained on our specific use case** - Learns exact patterns for our 5 tools
+- ✅ **Higher accuracy** - 0.10 loss with 95%+ validation accuracy
+- ✅ **Cultural context understanding** - Trained on Hindi/English/Hinglish examples
+- ✅ **Confident predictions** - Provides probability scores for each intent
 
 ### Multilingual Processing Pipeline
 
@@ -185,47 +167,6 @@ class MultilingualToolRouter:
             return selected_tool
         else:
             return "clarification_needed"
-```
-
-### Advanced Language Detection
-
-Our system handles complex multilingual scenarios:
-
-```python
-def _detect_language(self, text: str) -> Language:
-    # Multi-layered detection
-    1. Roman Hindi word detection ("ghar", "mein", "hai", "kuch")
-    2. Devanagari script detection  
-    3. English word dominance analysis
-    4. Mixed script handling (Hinglish)
-    
-    # Result: Accurate classification of Hindi/English/Hinglish
-```
-
----
-
-## 📊 Comprehensive Accuracy Measurement System
-
-### Current Performance Results
-
-**Latest Evaluation (20 Test Cases):**
-```
-📈 OVERALL ACCURACY: 70.00% (14/20)
-📊 Total Tests: 20
-✅ Correct Predictions: 14
-🎯 Average Confidence: 0.75
-
-🏆 PER-TOOL PERFORMANCE:
-  leftover_chef   | Precision: 100.00% | Recall:  60.00% | F1: 75.00%
-  nani_kahaniyan  | Precision: 100.00% | Recall: 100.00% | F1: 100.00%
-  poem_generator  | Precision:  60.00% | Recall: 100.00% | F1: 75.00%
-  vividh_bharti   | Precision: 100.00% | Recall: 100.00% | F1: 100.00%
-  food_locator    | Precision: 100.00% | Recall:  75.00% | F1: 85.71%
-
-🌐 LANGUAGE-SPECIFIC ACCURACY:
-  english    | 100.00% (4/4)
-  hindi      | 100.00% (6/6)  
-  hinglish   |  40.00% (4/10) ← Main improvement area
 ```
 
 ![Routing Testing Results](public/testing_routing.png)
@@ -291,8 +232,7 @@ pip install -r requirements.txt
 echo "TOKEN=your_mcp_token" > .env  
 echo "MY_NUMBER=your_phone_number" >> .env
 
-# 4. Download multilingual model (automatic on first run)
-# sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
 ```
 
 ### Running the Complete System
@@ -390,7 +330,7 @@ python intent_classifier.py
 ```
 **What this does:**
 - Loads the training data from JSON
-- Trains DistilBERT model for sequence classification
+- Fine-tunes paraphrase-multilingual-MiniLM-L12-v2 for sequence classification
 - Achieves **0.10 training loss** and 95%+ validation accuracy
 - Saves complete model in `intent_model/` directory
 - Creates checkpoints and tokenizer files
@@ -400,10 +340,10 @@ python intent_classifier.py
 python demo_hybrid_routing.py
 ```
 **What this does:**
-- Compares semantic embedding vs intent classification approaches
+- Compares intent classification (primary) vs semantic embedding (backup) approaches
 - Tests both methods on identical test cases
 - Shows confidence scores and decision reasoning
-- Demonstrates hybrid fallback mechanism
+- Demonstrates how the primary intent model works
 - Provides performance comparison and recommendations
 
 ### Expected Output Example
@@ -412,22 +352,22 @@ python demo_hybrid_routing.py
 🚀 HYBRID ROUTING APPROACH DEMO
 ============================================================
 
-🔍 TESTING SEMANTIC EMBEDDING ROUTING
-==================================================
-✅ Test 1: 'Ghar mein sirf chawal aur dal hai, kuch recipe batao'
-   Expected: leftover_chef | Got: leftover_chef
-   Confidence: 0.823 | Language: hinglish
-
 🧠 TESTING INTENT CLASSIFICATION MODEL
 ==================================================
 ✅ Test 1: 'Ghar mein sirf chawal aur dal hai, kuch recipe batao'
    Expected: leftover_chef | Got: leftover_chef
    Intent: RECIPE_SUGGESTION | Confidence: 0.912
 
+🔍 TESTING SEMANTIC EMBEDDING ROUTING
+==================================================
+✅ Test 1: 'Ghar mein sirf chawal aur dal hai, kuch recipe batao'
+   Expected: leftover_chef | Got: leftover_chef
+   Confidence: 0.823 | Language: hinglish
+
 📈 FINAL COMPARISON RESULTS
 ==================================================
-🔍 Semantic Embedding:     73.3%
-🧠 Intent Classification:  86.7%
+🧠 Intent Classification (Primary):  86.7%
+🔍 Semantic Embedding (Backup):     73.3%
 
 🏆 BEST PERFORMING METHOD: INTENT (86.7%)
 ```
@@ -437,7 +377,7 @@ python demo_hybrid_routing.py
 The intent classification model achieves excellent performance:
 - **Training Loss**: 0.10 (very low, indicating good learning)
 - **Validation Accuracy**: 95%+  
-- **Model Size**: ~250MB (DistilBERT-based)
+- **Base Model**: paraphrase-multilingual-MiniLM-L12-v2 (fine-tuned)
 - **Training Time**: ~10 minutes on standard hardware
 
 ---
