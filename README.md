@@ -3,6 +3,25 @@
 ## 🎯 Project Overview
 
 This project demonstrates a **comprehensive solution to measure the accuracy of correct MCP tool selection when dealing with multilingual inputs (Hindi + English text)**. It was built to address the core interview question from Puch AI about handling tool routing in multilingual scenarios.
+
+### The Puch AI Interview Challenge
+
+> "How will you measure the accuracy of the correct MCP tool being called upon different language input (Hindi + English text)?"
+
+**The feedback indicated two key areas to understand:**
+1. **Routing between multiple tools** - How to intelligently select the right tool
+2. **Multilinguality** - Handling Hindi, English, and Hinglish seamlessly
+
+### Our Complete Solution
+
+We built a production-ready system that demonstrates:
+- ✅ **Semantic embedding-based multilingual tool routing**
+- ✅ **Comprehensive accuracy measurement framework** 
+- ✅ **Multiple routing approaches** (semantic similarity + intent classification)
+- ✅ **Real-world evaluation** with 20+ test cases across 3 languages
+- ✅ **8 fully functional MCP tools** with intelligent routing
+- ✅ **Production-ready architecture** with confidence scoring and fallbacks
+
 ---
 
 ## 🏗️ System Architecture
@@ -13,8 +32,8 @@ This project demonstrates a **comprehensive solution to measure the accuracy of 
 graph TD
     A[User Input<br/>Hindi/English/Hinglish] --> B[MultilingualToolRouter]
     B --> C{Routing Method}
-    C -->|Primary| E[Intent Classification<br/>Model] 
-    C -->|Backup| D[Semantic Embedding<br/>Similarity]
+    C -->|Primary| D[Semantic Embedding<br/>Similarity]
+    C -->|Backup| E[Intent Classification<br/>Model]
     D --> F[Confidence Check]
     E --> F
     F --> G{Confidence > Threshold?}
@@ -115,15 +134,19 @@ We explored two approaches for multilingual tool routing:
 Model: DistilBERT for sequence classification
 Dataset: 540+ examples across 5 intents in 3 languages
 Training epochs: 3
+Final training loss: 0.10
 Validation accuracy: 95%+
 Location: intent_model/ directory with full checkpoints
 ```
+
+![Intent Classification Training Results](public/training_intent.png)
+*Intent classification model training showing loss reduction to 0.10 and high validation accuracy*
 
 **Training Data Structure:**
 ```json
 {
   "text": "Ghar mein leftover rice hai, kuch banau?",
-  "intent": "RECIPE_SUGGESTION",
+  "intent": "RECIPE_SUGGESTION", 
   "language": "hinglish"
 }
 ```
@@ -204,6 +227,9 @@ def _detect_language(self, text: str) -> Language:
   hindi      | 100.00% (6/6)  
   hinglish   |  40.00% (4/10) ← Main improvement area
 ```
+
+![Routing Testing Results](public/testing_routing.png)
+*Comprehensive routing testing results showing accuracy across different languages and tools*
 
 ### Evaluation Framework Architecture
 
@@ -321,58 +347,6 @@ metrics = await evaluate_routing_accuracy()
 
 ---
 
-## 📈 Answering the Puch AI Interview Question
-
-### The Original Challenge
-*"How will you measure the accuracy of the correct MCP tool being called upon different language input (Hindi + English text)?"*
-
-### Our Production-Ready Answer
-
-#### 1. **Comprehensive Evaluation Framework**
-```python
-# 20+ test cases across 3 languages and 5 tools
-test_cases = router.get_test_dataset()
-
-# Multi-dimensional accuracy measurement
-metrics = router.evaluate_accuracy(test_cases)
-
-# Results: Overall, per-tool, per-language accuracy
-print(f"Overall: {metrics.accuracy:.1%}")
-print(f"Hinglish: {metrics.language_accuracy[Language.HINGLISH]:.1%}")
-```
-
-#### 2. **Multiple Accuracy Dimensions**
-- **Overall Accuracy**: 70% across all scenarios
-- **Per-Tool Metrics**: Precision/Recall for each of 5 tools
-- **Language-Specific**: English (100%), Hindi (100%), Hinglish (40%)
-- **Confidence Analysis**: Distribution of prediction certainty
-- **Confusion Matrix**: Which tools get confused with each other
-
-#### 3. **Real-World Multilingual Testing**
-- **Natural code-switching**: "Ghar mein leftover rice hai kuch banau?"
-- **Cultural context**: "Nani ki kahaniyan sunao" vs "Tell story"
-- **Ambiguous inputs**: "Music" → "clarification_needed"
-- **Edge cases**: Mixed scripts, incomplete sentences
-
-#### 4. **Production Monitoring**
-- **Confidence thresholds**: Avoid uncertain predictions
-- **Fallback mechanisms**: Request clarification when unsure
-- **Decision logging**: Track all routing decisions for analysis
-- **A/B testing**: Compare different routing approaches
-
-#### 5. **Continuous Improvement Pipeline**
-```python
-# Weekly accuracy evaluation
-metrics = evaluate_system_performance()
-
-# Identify failure patterns
-failed_cases = get_low_confidence_predictions()
-
-# Update thresholds or add training data
-if metrics.hinglish_accuracy < 0.6:
-    improve_hinglish_handling()
-```
-
 ### Key Technical Insights Demonstrated
 
 1. **Intent-Based Routing > Keyword Matching**
@@ -391,6 +365,80 @@ if metrics.hinglish_accuracy < 0.6:
    - Beyond simple accuracy: precision, recall, confusion analysis
    - Language-specific performance measurement
    - Real-world test scenarios
+
+---
+
+## 📚 Step-by-Step Training & Testing Guide
+
+### Complete Workflow for Intent Model Training and Hybrid Routing
+
+To fully experience both routing approaches and see the trained intent model in action:
+
+#### Step 1: Generate Training Data
+```bash
+python data.py
+```
+**What this does:**
+- Creates comprehensive training dataset in JSON format
+- Generates 540+ examples across 5 intents in 3 languages
+- Saves to `training_data_enhanced.json`
+- Includes Hindi, English, and Hinglish examples for each tool
+
+#### Step 2: Train Intent Classification Model
+```bash
+python intent_classifier.py
+```
+**What this does:**
+- Loads the training data from JSON
+- Trains DistilBERT model for sequence classification
+- Achieves **0.10 training loss** and 95%+ validation accuracy
+- Saves complete model in `intent_model/` directory
+- Creates checkpoints and tokenizer files
+
+#### Step 3: Test Hybrid Routing Performance
+```bash
+python demo_hybrid_routing.py
+```
+**What this does:**
+- Compares semantic embedding vs intent classification approaches
+- Tests both methods on identical test cases
+- Shows confidence scores and decision reasoning
+- Demonstrates hybrid fallback mechanism
+- Provides performance comparison and recommendations
+
+### Expected Output Example
+
+```
+🚀 HYBRID ROUTING APPROACH DEMO
+============================================================
+
+🔍 TESTING SEMANTIC EMBEDDING ROUTING
+==================================================
+✅ Test 1: 'Ghar mein sirf chawal aur dal hai, kuch recipe batao'
+   Expected: leftover_chef | Got: leftover_chef
+   Confidence: 0.823 | Language: hinglish
+
+🧠 TESTING INTENT CLASSIFICATION MODEL
+==================================================
+✅ Test 1: 'Ghar mein sirf chawal aur dal hai, kuch recipe batao'
+   Expected: leftover_chef | Got: leftover_chef
+   Intent: RECIPE_SUGGESTION | Confidence: 0.912
+
+📈 FINAL COMPARISON RESULTS
+==================================================
+🔍 Semantic Embedding:     73.3%
+🧠 Intent Classification:  86.7%
+
+🏆 BEST PERFORMING METHOD: INTENT (86.7%)
+```
+
+### Training Results
+
+The intent classification model achieves excellent performance:
+- **Training Loss**: 0.10 (very low, indicating good learning)
+- **Validation Accuracy**: 95%+  
+- **Model Size**: ~250MB (DistilBERT-based)
+- **Training Time**: ~10 minutes on standard hardware
 
 ---
 
