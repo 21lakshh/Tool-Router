@@ -441,15 +441,3 @@ This project provides a **complete, working solution** to the Puch AI interview 
 **Key Achievement**: Built a system that can intelligently route "Ghar mein chawal hai kya banau?" to recipe suggestions while measuring and improving its accuracy across languages.
 
 ---
-
-## 📞 Technical Contact
-
-Built to demonstrate comprehensive multilingual MCP tool routing with accuracy measurement.
-
-**Core Innovation**: Semantic embedding-based routing that preserves cultural context while providing measurable accuracy across Hindi, English, and Hinglish inputs.
-
----
-
-*"Pucho Ghar ke Baatein" - Where every family conversation finds its perfect digital companion* 🏠
-
-**Current Status**: 70% overall accuracy, 100% Hindi/English, 40% Hinglish (improving) 📊 
