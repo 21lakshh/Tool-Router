@@ -1,4 +1,4 @@
-# Pucho Ghar ke Baatein - Multilingual MCP Tool Routing System
+# Tool Router - Multilingual MCP Tool Routing System
 
 ## 🎯 Project Overview
 
